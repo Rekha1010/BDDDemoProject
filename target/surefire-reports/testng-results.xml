@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70851" started-at="2020-07-28T16:49:47Z" finished-at="2020-07-28T16:50:58Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.LoginFeatureRunner@3f2a3a5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.ValidateCRMFeatureRunner@4cb2c100]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.ValidateCustomerFeatureRunner@614c5515]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.ValidatePricingFeatureRunner@6fb554cc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="70851" started-at="2020-07-28T16:49:47Z" finished-at="2020-07-28T16:50:58Z">
+      <class name="com.projectName.cucumber.runners.ValidateCRMFeatureRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.projectName.cucumber.runners.ValidateCRMFeatureRunner@4cb2c100]" name="setUpClass" is-config="true" duration-ms="136" started-at="2020-07-28T16:49:47Z" finished-at="2020-07-28T16:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.ValidateCRMFeatureRunner@4cb2c100]" name="runScenario" duration-ms="46447" started-at="2020-07-28T16:49:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-28T16:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2 Navigate to Zoho.com"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["2 Login to Zoho and validate CRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.ValidateCRMFeatureRunner@4cb2c100]" name="runScenario" duration-ms="22261" started-at="2020-07-28T16:50:34Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-28T16:50:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["2 Navigate to Zoho.com"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["2 Login to Zoho and validate CRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.projectName.cucumber.runners.ValidateCRMFeatureRunner@4cb2c100]" name="tearDownClass" is-config="true" duration-ms="3" started-at="2020-07-28T16:50:56Z" finished-at="2020-07-28T16:50:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.projectName.cucumber.runners.ValidateCRMFeatureRunner -->
+      <class name="com.projectName.cucumber.runners.ValidateCustomerFeatureRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.projectName.cucumber.runners.ValidateCustomerFeatureRunner@614c5515]" name="setUpClass" is-config="true" duration-ms="136" started-at="2020-07-28T16:49:47Z" finished-at="2020-07-28T16:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.ValidateCustomerFeatureRunner@614c5515]" name="runScenario" duration-ms="70649" started-at="2020-07-28T16:49:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-28T16:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["3 Navigate to Zoho.com"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["3 Login to Zoho and validate CRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.projectName.cucumber.runners.ValidateCustomerFeatureRunner@614c5515]" name="tearDownClass" is-config="true" duration-ms="1" started-at="2020-07-28T16:50:58Z" finished-at="2020-07-28T16:50:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.projectName.cucumber.runners.ValidateCustomerFeatureRunner -->
+      <class name="com.projectName.cucumber.runners.LoginFeatureRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.projectName.cucumber.runners.LoginFeatureRunner@3f2a3a5]" name="setUpClass" is-config="true" duration-ms="139" started-at="2020-07-28T16:49:47Z" finished-at="2020-07-28T16:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.LoginFeatureRunner@3f2a3a5]" name="runScenario" duration-ms="46281" started-at="2020-07-28T16:49:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-28T16:50:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["1 Navigate to Zoho.com in Chrome and perform login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["1 Login to Zoho"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.projectName.cucumber.runners.LoginFeatureRunner@3f2a3a5]" name="tearDownClass" is-config="true" duration-ms="68" started-at="2020-07-28T16:50:33Z" finished-at="2020-07-28T16:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.projectName.cucumber.runners.LoginFeatureRunner -->
+      <class name="com.projectName.cucumber.runners.ValidatePricingFeatureRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.projectName.cucumber.runners.ValidatePricingFeatureRunner@6fb554cc]" name="setUpClass" is-config="true" duration-ms="136" started-at="2020-07-28T16:49:47Z" finished-at="2020-07-28T16:49:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:com.projectName.cucumber.runners.ValidatePricingFeatureRunner@6fb554cc]" name="runScenario" duration-ms="66572" started-at="2020-07-28T16:49:47Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-28T16:50:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["4 Navigate to Zoho.com"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["4 Login to Zoho and validate CRM"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.projectName.cucumber.runners.ValidatePricingFeatureRunner@6fb554cc]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2020-07-28T16:50:54Z" finished-at="2020-07-28T16:50:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.projectName.cucumber.runners.ValidatePricingFeatureRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
